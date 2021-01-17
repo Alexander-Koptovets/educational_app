@@ -27,41 +27,11 @@
     margin: 5px;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form > input {
-    width: 200px;
-    height: 35px;
-    margin: 5px 0;
-}
-
 .close-form-btn {
     border-radius: 5%;
     height: 35px;
     background: #c4040e;
     color: #fff;
     border: #c4040e;
-    margin: 5px;
-}
-
-.save-contacts-btn {
-    border-radius: 5%;
-    height: 35px;
-    background: #07a302;
-    color: #fff;
-    border: #07a302;
-    margin: 5px;
-}
-
-.save-contacts-disabled-btn {
-    border-radius: 5%;
-    height: 35px;
-    background: #8f8585;
-    color: #fff;
-    border: #8f8585;
     margin: 5px;
 }

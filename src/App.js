@@ -1,11 +1,11 @@
 import React from 'react' 
 import './App.css';
-import { Table } from './table/table'
+import { ContactsComponent } from './contacts/contacts'
 
 function App() {
   return (
-    <Table /> 
-  );
+    <ContactsComponent />
+  )
 }
 
-export default App;
+export default App; 
