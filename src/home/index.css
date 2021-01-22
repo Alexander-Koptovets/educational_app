@@ -1,0 +1,35 @@
+.wrapper-tasks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.task {
+    width: 200px;
+    height: 150px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.task-name {
+    font-size: 16px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
