@@ -15,6 +15,16 @@ export function Home() {
                     <p className='task-name'> LifeCycle методы и Ref ссылки на DOM элементы</p>
                 </div>
             </NavLink>
+            <NavLink to='/timer/timer'>
+                <div className='task task-3'>
+                    <p className='task-name'>Timer Hooks</p>
+                </div>
+            </NavLink>
+            <NavLink to='/users/users'>
+                <div className='task task-4'>
+                    <p className='task-name'>Книга контактов v2</p>
+                </div>
+            </NavLink>
         </div>
     )
 }

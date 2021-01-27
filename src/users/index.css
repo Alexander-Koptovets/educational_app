@@ -1,0 +1,79 @@
+.user-table > tr > td {
+    border: 1px solid #000;
+}
+
+.user-table:hover {
+    cursor: pointer; 
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 5px 0;
+    width: 200px;
+    height: 50px;
+}
+
+.user-btn-wrapper {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-btn {
+    border-radius: 5%;
+    color: #fff;
+    height: 40px;
+    width: 60px;
+}
+
+.save {
+    background: #0ffc03;
+    border: #0ffc03;
+}
+
+.update {
+    background: #05b5fa;
+    border: #05b5fa;
+}
+
+.delete {
+    background: #fc0509;
+    border: #fc0509;
+}
+
+.users-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+.form {
+    margin-left: 10px;
+    border: 1px solid #000;
+    padding: 10px 10px;
+}
+
+.btn-add-user {
+    border-radius: 5%;
+    color: #043994;
+    height: 40px;
+    border: 2px solid #043994;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.disabled-btn {
+    background: #454d5c; 
+}
