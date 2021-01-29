@@ -25,6 +25,11 @@ export function Home() {
                     <p className='task-name'>Книга контактов v2</p>
                 </div>
             </NavLink>
+            <NavLink to='/test/test'>
+                <div className='task blue'>
+                    <p className='task-name'>Книга контактов v2 (но с Redux-thunk)</p>
+                </div>
+            </NavLink>
         </div>
     )
 }

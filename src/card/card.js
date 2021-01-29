@@ -79,14 +79,14 @@ export class Card extends React.Component {
         if (this.state.fourthInputValue.length === 0) {
             this.thirdInput.current.focus();
         };
-        
+
         if (this.state.thirdInputValue.length === 0) {
             this.secondInput.current.focus();
         }; 
         
         if (this.state.secondInputValue.length === 0) {
             this.firstInput.current.focus();
-        }
+        };
     }
 
     render() {
