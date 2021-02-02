@@ -1,5 +1,3 @@
-import { act } from "react-dom/test-utils";
-
 const initialState = [];
   
   export function phones(state = initialState, action) {
